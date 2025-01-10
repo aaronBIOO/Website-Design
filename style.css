@@ -3,3 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* body */
+body {
+    background-color: whitesmoke;
+    color:#333;
+}
+
+/* hero */
+.hero {
+    padding: 6rem;
+
+}
