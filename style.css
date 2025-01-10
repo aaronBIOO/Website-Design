@@ -11,6 +11,11 @@ body {
     font-family: "Poppins", Arial, Roboto, Lobster;
 }
 
+/* main */
+main {
+    margin: auto 4rem;
+}
+
 /* hero */
 .hero {
     padding: 6rem;
@@ -31,6 +36,11 @@ body {
 
 .feature_item {
     padding: 1rem 0;
+    text-align: left;
+}
+
+.ESL {
+    text-decoration: underline;
 }
 
 .feature_title {
