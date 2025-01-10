@@ -8,10 +8,18 @@
 body {
     background-color: whitesmoke;
     color:#333;
+    font-family: "Roboto", Lobster;
 }
 
 /* hero */
 .hero {
     padding: 6rem;
+}
 
+.hero_description {
+    color:#81da76;
+}
+
+.hero_highlight {
+    color: brown;
 }
