@@ -18,7 +18,7 @@ body {
 }
 
 .hero_description {
-    color:#81da76;
+    color:#6BC785;
 }
 
 .hero_highlight {
@@ -50,7 +50,7 @@ body {
     font-size: 1.6rem;
     font-weight: 590;
     text-transform: uppercase;
-    color:#81da76;
+    color:#6BC785;
     margin-bottom: 0.2rem;
 }
 
@@ -58,12 +58,17 @@ body {
     text-decoration: underline;
 }
 
+.CLE_1 {
+    margin-bottom: 16rem;
+}
+
 /* Call to action */
 .cta {
     padding: 4rem;
-    background-color: #81da76;
+    background-color: #6BC785;
     color: whitesmoke;
     text-align: center;
+    
 }
 
 .cta_description {
