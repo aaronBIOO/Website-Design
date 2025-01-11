@@ -11,11 +11,6 @@ body {
     font-family: "Poppins", Arial, Roboto, Lobster;
 }
 
-/* main */
-main {
-    margin: auto 4rem;
-}
-
 /* hero */
 .hero {
     padding: 6rem;
@@ -34,6 +29,7 @@ main {
 .feature {
     font-family: "Poppins", Arial, Times;
     text-align: center;
+    margin: auto 4rem;
 }
 
 .feature_item {
@@ -63,9 +59,8 @@ main {
 }
 
 /* Call to action */
-
 .cta {
-    padding: 6rem;
+    padding: 4rem;
     background-color: #81da76;
     color: whitesmoke;
     text-align: center;
@@ -74,4 +69,15 @@ main {
 .cta_description {
     padding: 1rem 0;
     color: whitesmoke;
+}
+
+/* Call to action button */
+button {
+    color: none;
+    border: none;
+
+}
+
+.cta_button {
+    padding: 0.8rem 1.2rem;
 }
