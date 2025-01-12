@@ -92,10 +92,15 @@ button {
     text-align: center;
     padding: 4rem;
     font-weight: 500;
+    margin-top: 12rem;
     
 }
 
 .video_title {
     font-size: 2rem;
     font-weight: 500;
+}
+
+.video_description {
+    margin-top: 1.5rem;
 }
