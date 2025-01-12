@@ -86,3 +86,9 @@ button {
 .cta_button {
     padding: 0.8rem 1.2rem;
 }
+
+.video {
+    text-align: center;
+    padding: 4rem;
+    font-weight: 500;
+}
