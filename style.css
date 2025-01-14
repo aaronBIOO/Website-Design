@@ -107,3 +107,12 @@ button {
     font-weight: 200;
     
 }
+.video_controls {
+    margin-top: 2rem;
+}
+
+.video_button{
+    border: 1px solid #6BC785;
+    background-color: none;
+    padding: 1rem 2rem;
+}
