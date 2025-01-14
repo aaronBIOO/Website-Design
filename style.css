@@ -59,7 +59,7 @@ body {
 }
 
 .CLE_1 {
-    margin-bottom: 16rem;
+    margin-bottom: 12rem;
 }
 
 /* Call to action */
@@ -92,7 +92,7 @@ button {
     text-align: center;
     padding: 4rem;
     font-weight: 500;
-    margin-top: 10rem;
+    margin-top: 7rem;
     
 }
 
@@ -102,6 +102,6 @@ button {
 }
 
 .video_description {
-    margin-top: 1.5rem;
-    padding: 1rem;
+    margin-top: 0.8rem;
+    padding: 0.5rem;
 }
