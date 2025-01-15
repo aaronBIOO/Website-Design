@@ -64,8 +64,7 @@ body {
 
 /* Call to action */
 .cta {
-    height: 50rem;
-    padding: 5rem;
+    padding: 12rem 4rem;
     background-color: #6BC785;
     color: whitesmoke;
     text-align: center;
