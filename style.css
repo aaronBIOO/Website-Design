@@ -64,7 +64,8 @@ body {
 
 /* Call to action */
 .cta {
-    padding: 4rem;
+    height: 50rem;
+    padding: 5rem;
     background-color: #6BC785;
     color: whitesmoke;
     text-align: center;
@@ -126,4 +127,5 @@ button {
     background-color: #ccc;
     width: 100%;
     height: 30rem;
+    box-shadow: 1px 4px 7px 4px rgba(0, 0, 0, 0.33);
 }
