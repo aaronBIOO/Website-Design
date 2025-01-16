@@ -80,11 +80,15 @@ body {
 button {
     color: none;
     border: none;
-
+    padding: 0.8rem 1.5rem;
 }
 
 .cta__button {
     padding: 0.8rem 1.2rem;
+}
+.cta__title {
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 /* Video style */
