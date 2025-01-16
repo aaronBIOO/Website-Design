@@ -130,6 +130,7 @@ button {
     box-shadow: 1px 4px 7px 4px rgba(0, 0, 0, 0.33);
 }
 
+/* Programs */
 .programs {
     padding: 4rem;
     background-color: white;
@@ -147,3 +148,17 @@ button {
     font-weight: 400;
 }
 
+/* Program card */
+.program__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.program__card {
+    background-color: #b5b5b5;
+    padding: 4rem;
+    width: 30%;
+    height: 15rem;
+}
