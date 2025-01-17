@@ -13,6 +13,7 @@ body {
     min-height: 60vh;
     background-color: #C2EFD4;
     display: flex;
+    align-items: flex-start; /* Align items to the top */
 
 }
 
