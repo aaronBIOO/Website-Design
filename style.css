@@ -15,17 +15,22 @@ body {
 /* hero */
 .hero {
     padding: 8rem;
+    height: 30rem;
     text-align: center;
-    background-color:rgba(245, 245, 245, 0.863);
+    background-color:#C2EFD4;
+}
+
+.hero__title {
+    color: #094215
 }
 
 .hero__description {
-    color:#6BC785;
+    color:#267D49;
     font-size: 1.1rem;
 }
 
 .hero__highlight {
-    color: brown;
+    color: rgba(255, 0, 0, 0.568);
 }
 
 /* feature */
