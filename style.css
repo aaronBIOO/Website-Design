@@ -9,6 +9,7 @@ body {
     background-color: whitesmoke;
     color:#333;
     font-family: "Poppins", Arial, Roboto, Lobster;
+    
 }
 
 /* hero */
@@ -30,6 +31,8 @@ body {
     font-family: "Poppins", Arial, Times;
     text-align: center;
     margin: auto 4rem;
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 
 .feature__item {
@@ -88,9 +91,12 @@ button {
     height: 3rem;
 }
 
+/* text within 'cta' button */
 .cta__button span {
-    font-family: Roboto;
+    font-family: Poppins;
     font-size: 1rem;
+    font-weight: 600;
+    color:#333333bb
 }
 
 .cta__button {
@@ -101,6 +107,13 @@ button {
     font-size: 1.5rem;
     font-weight: 500;
 }
+
+/* cta description */
+.cta__description {
+    font-size: 1.2rem;
+    color: rgba(245, 245, 245, 0.87);
+}
+
 
 /* Video style */
 .video {
