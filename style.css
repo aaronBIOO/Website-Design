@@ -6,7 +6,7 @@
 
 /* body */
 body {
-    background-color: whitesmoke;
+    background-color: white;
     color:#333;
     font-family: "Poppins", Arial, Roboto, Lobster;
     
@@ -14,12 +14,14 @@ body {
 
 /* hero */
 .hero {
-    padding: 6rem;
+    padding: 8rem;
     text-align: center;
+    background-color: #cccccc;
 }
 
 .hero__description {
     color:#6BC785;
+    font-size: 1.1rem;
 }
 
 .hero__highlight {
@@ -30,9 +32,10 @@ body {
 .feature {
     font-family: "Poppins", Arial, Times;
     text-align: center;
-    margin: auto 4rem;
+    margin: auto 6rem;
     font-size: 1.2rem;
     font-weight: 100;
+    margin-top: 6rem;
 }
 
 .feature__item {
@@ -94,9 +97,9 @@ button {
 /* text within 'cta' button */
 .cta__button span {
     font-family: Poppins;
-    font-size: 1rem;
-    font-weight: 600;
-    color:#333333bb
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#333
 }
 
 .cta__button {
@@ -121,6 +124,7 @@ button {
     padding: 4rem;
     font-weight: 500;
     margin-top: 7rem;
+    background-color: white;
     
 }
 
@@ -134,8 +138,11 @@ button {
     margin-top: 0.8rem;
     padding: 0.5rem;
     font-weight: 200;
+    font-size: 1.2rem;
     
 }
+
+/* video controls */
 .video__controls {
     margin-top: 2rem;
 }
@@ -144,6 +151,10 @@ button {
     border: 1px solid #6BC785;
     background-color: none;
     padding: 1rem 2rem;
+}
+
+.video__button span {
+    font-family: Poppins;
 }
 
 .video__button__primary {
