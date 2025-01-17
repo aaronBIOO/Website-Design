@@ -3,3 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #FFFFFF;
+}
+
+/* Hero */
+.hero {
+    min-height: 60vh;
+    background-color: #C2EFD4;
+    display: flex;
+
+}
+
+/* Hero; navigation */
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    text-decoration: none;
+}
