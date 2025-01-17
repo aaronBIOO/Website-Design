@@ -85,10 +85,21 @@ button {
 
 .cta__button {
     padding: 0.8rem 1.2rem;
+    height: 3rem;
 }
+
+.cta__button span {
+    font-family: Roboto;
+    font-size: 1rem;
+}
+
+.cta__button {
+    border-radius: 0.8rem;
+}
+
 .cta__title {
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /* Video style */
