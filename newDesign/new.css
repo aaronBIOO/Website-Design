@@ -20,11 +20,11 @@ body {
 
 }
 
-/* Hero; navigation */
+/* Hero; Navigation */
 .navigation__bar nav ul {
     list-style-type: none;
     display: flex; /* Make the navigation horizontal */
-    gap: 1rem;
+    gap: 1.2rem;
     margin: 0;
     padding: 0;
 }
