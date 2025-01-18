@@ -45,6 +45,10 @@ nav a {
 
 /* Hero; login button */
 .login__button {
-    padding: 0.5rem 1.5rem;
-    
+    border: 0.1rem solid #094215;
+    padding: 0.3rem 1.5rem;
+    background-color: #C2EFD4;
+    font-family: Poppins;
+    font-weight: 600;
+    color:#094215;
 }
