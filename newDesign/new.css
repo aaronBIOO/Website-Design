@@ -30,7 +30,8 @@ body {
 }
 
 
-nav a {
+.navigation__bar a {
+    font-size: 0.8rem;
     text-decoration: none;
     color: #094215;
 }
@@ -41,14 +42,17 @@ nav a {
     font-weight: 500;
     font-family: Limelight;
     color: #094215;
+    align-items: center; /* Ensure logo text is centered vertically */
 }
 
 /* Hero; login button */
 .login__button {
+    display: flex;
+    align-items: center; /* Ensure button is centered vertically */
     border: 0.1rem solid #094215;
     padding: 0.3rem 1.5rem;
     background-color: #C2EFD4;
     font-family: Poppins;
     font-weight: 600;
-    color:#094215;
+    color:#094215; 
 }
