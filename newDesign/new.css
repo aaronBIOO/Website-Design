@@ -30,7 +30,7 @@ body {
     margin-bottom: 2rem;
 }
 
-/* Hero; Navigation */
+/* Hero; Navigation menu */
 .navigation__bar nav ul {
     list-style-type: none;
     display: flex; /* Make the navigation horizontal */
@@ -73,4 +73,45 @@ body {
 .hero__bottom {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex-grow: 1; /* Ensure this section occupies the remaining vertical space */
+}
+
+/* Left content - Headline, description, and button */
+.hero__content__left {
+    max-width: 60%; /* Limit the width to half the container */
+}
+
+/* Headline - Attention-grabbing text */
+.hero__headline p {
+    font-size: 3rem; /* Set a large font size for the headline */
+    font-weight: bold; /* Use bold font weight for prominence */
+    color: #094215; /* Set dark green text color */
+    line-height: 1.2; /* Adjust line spacing for readability */
+}
+
+/* Description - Supporting text below the headline */
+.hero__description p {
+    margin-top: 1rem; /* Add space above the description */
+    font-size: 1rem; /* Set a standard font size */
+    color: #267D49; /* Use a dark gray color for better contrast */
+    line-height: 1.5; /* Adjust line spacing for readability */
+}
+
+/* Button Container - Space between description and button */
+.hero__button__container {
+    margin-top: 1.5rem; /* Add space above the button */
+}
+
+/* Button - Call-to-action */
+.hero__button {
+    padding: 0.8rem 2rem; /* Add space inside the button */
+    border: none; /* Remove default border */
+    background-color: #094215; /* Set a dark green background */
+    color: #fff; /* Set white text color */
+    font-size: 1rem; /* Set font size for the button */
+    font-weight: bold; /* Use bold font for emphasis */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease; /* Add smooth hover effect */
 }
