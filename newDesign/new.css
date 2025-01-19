@@ -11,13 +11,23 @@ body {
 
 /* Hero section*/
 .hero {
-    min-height: 60vh;
+    min-height: 80vh;
     background-color: #C2EFD4;
     display: flex;
-    align-items: flex-start; /* Align items to the top */
-    justify-content: space-between; /* Push logo and nav to opposite sides */
+    flex-direction: column;
     padding: 1.5rem 4rem;
+}
+    /* align-items: flex-start;  Align items to the top 
+    justify-content: space-between; /* Push logo and nav to opposite sides 
+    padding: 1.5rem 4rem; */
 
+
+/* Hero top section */    
+.hero__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
 /* Hero; Navigation */
@@ -42,6 +52,7 @@ body {
     font-weight: 500;
     font-family: Limelight;
     color: #094215;
+    display: flex;
     align-items: center; /* Ensure logo text is centered vertically */
 }
 
@@ -55,4 +66,11 @@ body {
     font-family: Poppins;
     font-weight: 600;
     color:#094215; 
+    cursor: pointer;
+}
+
+/* Hero Bottom section */
+.hero__bottom {
+    display: flex;
+    align-items: center;
 }
