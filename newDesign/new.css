@@ -9,7 +9,7 @@ body {
     font-family: Poppins;
 }
 
-/* Hero section*/
+/* Hero section: overall*/
 .hero {
     min-height: 80vh;
     background-color: #C2EFD4;
@@ -17,12 +17,8 @@ body {
     flex-direction: column;
     padding: 1.5rem 4rem;
 }
-    /* align-items: flex-start;  Align items to the top 
-    justify-content: space-between; /* Push logo and nav to opposite sides 
-    padding: 1.5rem 4rem; */
 
-
-/* Hero top section */    
+/* Hero: hero top section */    
 .hero__top {
     display: flex;
     align-items: center;
@@ -69,7 +65,7 @@ body {
     cursor: pointer;
 }
 
-/* Hero Bottom section */
+/* Hero: bottom section */
 .hero__bottom {
     display: flex;
     align-items: center;
@@ -77,12 +73,12 @@ body {
     flex-grow: 1; /* Ensure this section occupies the remaining vertical space */
 }
 
-/* Left content - Headline, description, and button */
+/* Hero: Left content - Headline, description, and button */
 .hero__content__left {
     max-width: 60%; /* Limit the width to half the container */
 }
 
-/* Headline - Attention-grabbing text */
+/* Hero: headline */
 .hero__headline p {
     font-size: 3rem; 
     font-weight: bold; 
@@ -90,7 +86,7 @@ body {
     line-height: 1.2; 
 }
 
-/* Description - Supporting text below the headline */
+/* Hero: headline description */
 .hero__description p {
     margin-top: 1rem; 
     font-size: 1rem; 
@@ -98,12 +94,12 @@ body {
     line-height: 1.5; 
 }
 
-/* Button Container - Space between description and button */
+/* Hero: button Container */
 .hero__button__container {
     margin-top: 1.5rem; /
 }
 
-/* Button - Call-to-action */
+/* Hero: Hero button - explore now */
 .hero__button {
     padding: 0.8rem 2rem; 
     border: none; /* Remove default border */
