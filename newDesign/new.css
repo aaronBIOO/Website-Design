@@ -139,3 +139,23 @@ overflow-y: hidden;
     padding-left: 20px;
 
 }
+
+/* Design for smaller device */
+@media only screen and (max-width: 575px) {
+    .hero__bottom {
+        grid-template-columns: repeat(1,1fr);
+        padding: auto 1rem;
+    }
+
+    .hero__content__left {
+        padding-left: 0px;
+    }
+
+    .hero {
+        height: 100vh;
+    }
+
+    .hero__button__container {
+        overflow-y: visible;
+    }
+}
