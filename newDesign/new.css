@@ -23,7 +23,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
+    Padding: auto 2rem;
+
 }
 
 /* Hero; Navigation menu */
@@ -65,17 +67,11 @@ body {
     cursor: pointer;
 }
 
-/* Hero: bottom section */
-.hero__bottom {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-grow: 1; /* Ensure this section occupies the remaining vertical space */
-}
 
 /* Hero: Left content - Headline, description, and button */
 .hero__content__left {
-    max-width: 60%; /* Limit the width to half the container */
+    max-width: 100%; /* Limit the width to half the container */
+    padding: 0rem 0rem 0rem 8rem;
 }
 
 /* Hero: headline */
@@ -99,7 +95,7 @@ body {
     margin-top: 1.5rem; /
 }
 
-/* Hero: Hero button - explore now */
+/* Hero: hero button - explore now */
 .hero__button {
     padding: 0.8rem 2rem; 
     border: none; /* Remove default border */
@@ -112,9 +108,24 @@ body {
     
 }
 
+/* Hero: bottom section */
+.hero__bottom {
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /* Ensure this section occupies the remaining vertical space */
+    padding: auto 8rem;
+}
+
 /* Right Content - Hero Image */
 .hero__content__right {
-    background-color: #6BC785;
-    max-width: 40%; 
-    border-radius: 0.5rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hero__image {
+width: 50%;
+height: 100%;
+background-color: #6BC785;
+border-radius: 75px 30px 75px 30px;
 }
