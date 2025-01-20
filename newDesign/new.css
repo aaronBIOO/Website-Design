@@ -40,7 +40,7 @@ body {
 
 .navigation__bar a {
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: 200;
     text-decoration: none;
     color: #094215;
 }
@@ -140,11 +140,28 @@ overflow-y: hidden;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* Design for smaller device */
 @media only screen and (max-width: 575px) {
+    .hero__top {
+        display: none;
+    }
+
     .hero__bottom {
         grid-template-columns: repeat(1,1fr);
         padding: auto 1rem;
+        gap: 80px;
     }
 
     .hero__content__left {
@@ -152,10 +169,25 @@ overflow-y: hidden;
     }
 
     .hero {
-        height: 100vh;
+        height: auto;
     }
 
-    .hero__button__container {
-        overflow-y: visible;
+    .hero__image__container {
+        margin-left: 10%;
+        overflow-y: hidden;
+        scrollbar-width: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero__content__right{
+        height: 21rem;
+        width: 100%;
+    }
+    .hero__image{
+    margin-top: 3px;
+    margin-left: -20px;
+    padding-left: 0;
     }
 }
