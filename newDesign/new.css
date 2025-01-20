@@ -40,6 +40,7 @@ body {
 
 .navigation__bar a {
     font-size: 0.8rem;
+    font-weight: 600;
     text-decoration: none;
     color: #094215;
 }
@@ -123,9 +124,18 @@ body {
     height: 100%;
 }
 
-.hero__image {
+.hero__image__container {
 width: 50%;
 height: 100%;
 background-color: #6BC785;
 border-radius: 75px 30px 75px 30px;
+position: relative;
+overflow-y: hidden;
+}
+
+.hero__image {
+    position: absolute;
+    height: 330px;
+    padding-left: 20px;
+
 }
